@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    	<div id= "principal">
+    		       
+
+	        <button id="listarContatos">Listar Contatos</button>
+
+	        <button id="listarDuplicados">Listar Duplicados</button>
+	        <button onclick="Mudarestado('novoCont')">Novo Contato</button>	
+    	</div>
+
+        
+        
+
+        <div id="novoCont">
+        	<h2>Novo Contato</h2></br>
+        	<input type="button" value="Voltar" onClick="history.back()"> <br>
+        	Nome: <input type="text" id="displayName"><br>
+        	Telefone: <input type="text" id="phoneNumbers"><br>
+        	<button id="novoContato">Salvar</button>
+        </div>
+
+        <div id="contato"></div>
+
+
+        
+        <script src="cordova.js"></script>
+    	<script src="js/app.js"></script>
+    </body>
+    
+</html>
